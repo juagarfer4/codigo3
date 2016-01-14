@@ -24,6 +24,7 @@
   </dependencies>
 
    <build>
+	<testOutputDirectory>${project.build.testOutputDirectory}</testOutputDirectory>
         <plugins>
             <plugin>
 		<groupId>org.apache.maven.plugins</groupId>
@@ -33,7 +34,6 @@
 			<includes>
             			<include>**/test/**/*.java</include>
           		</includes>
-			<testOutputDirectory>${project.build.testOutputDirectory}</testOutputDirectory>
         	</configuration>
             </plugin>
         </plugins>
