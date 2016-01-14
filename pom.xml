@@ -31,7 +31,7 @@
         	<version>2.19.1</version>
         	<configuration>
 			<includes>
-            			<include>**/test/**/*.java</include>
+            			<include>**/test/*.java</include>
           		</includes>
         	</configuration>
             </plugin>
